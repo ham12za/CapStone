@@ -1,8 +1,8 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/prices",
-      "dest": "/api/prices/index.js"
+      "source": "/api/prices",
+      "destination": "/api/prices/index.js"
     }
   ]
 }
